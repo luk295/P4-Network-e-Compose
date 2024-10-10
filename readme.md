@@ -28,3 +28,12 @@ Hacemos `ping`á dirección da outra máquina do outro contenedor. ( Para saber 
 apt update $$ apt install iputils-ping
 apt update $$ apt install iproute2
 ```
+**Fan ping entre elas**
+
+# 5- Listar os contenedores conectados á rede
+Isto podo facelo co comando `docker network inspect A_miña_primera_Rede`.
+
+Móstrame un arquivo onde aparece o **name** da rede, a **id**, **cando** foi creado, a **configuración** da rede (Subrede, Rango, puerta de enlace)...
+
+Na última parte do arquivo, mostra un apartado que di **containers**, onde vese toda a información de cada máquina conectada a esa rede.
+
