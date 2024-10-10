@@ -37,3 +37,4 @@ Móstrame un arquivo onde aparece o **name** da rede, a **id**, **cando** foi cr
 
 Na última parte do arquivo, mostra un apartado que di **containers**, onde vese toda a información de cada máquina conectada a esa rede.
 
+[Imaxe dos contenedores](https://github.com/luk295/P4-Network-e-Compose/blob/main/Contenedores.png)
