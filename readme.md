@@ -33,8 +33,14 @@ apt update $$ apt install iproute2
 # 5- Listar os contenedores conectados á rede
 Isto podo facelo co comando `docker network inspect A_miña_primera_Rede`.
 
-Móstrame un arquivo onde aparece o **name** da rede, a **id**, **cando** foi creado, a **configuración** da rede (Subrede, Rango, puerta de enlace)...
-
 Na última parte do arquivo, mostra un apartado que di **containers**, onde vese toda a información de cada máquina conectada a esa rede.
 
 [Imaxe dos contenedores](https://github.com/luk295/P4-Network-e-Compose/blob/main/Contenedores.png)
+
+# 6- Listar as propiedades da rede
+Podo listar as propiedades co mesmo comando: `docker network inspect A_miña_primera_Rede`.
+
+Móstrame o arquivo no que aparece o **name** da rede, a **id**, **cando** foi creado, a **configuración** da rede (Subrede, Rango, puerta de enlace)...
+
+![Propiedades da rede](image.png)
+
