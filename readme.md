@@ -17,3 +17,14 @@ docker run -it -name P4_contenedor2 --network A_miña_primera_Rede ubuntu bash
 Para comprobalo fago `docker network inspect A_miña_Rede`.
 
 # 4-Comprobar que os contenedores poden verse entre eles.
+Para comprobar que poden verse entre eles podemos probar con `ping`.
+
+Hacemos `ping`a la dirección de la otra máquina del otro contenedor. ( Para saber lal propia dirección hacemos `ip a`.)
+
+>[!TIP]
+>Se non temos os comandos básicos bash podemos instarlos con los comandos que vienen a continuación.
+
+```
+apt update $$ apt install ping
+apt update $$ apt install iproute2
+```
