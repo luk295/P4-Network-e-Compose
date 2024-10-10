@@ -25,6 +25,6 @@ Hacemos `ping`á dirección da outra máquina do outro contenedor. ( Para saber 
 >Se non temos os comandos básicos bash podemos instalalos cos comandos que veñen a continuación.
 
 ```
-apt update $$ apt install ping
+apt update $$ apt install iputils-ping
 apt update $$ apt install iproute2
 ```
