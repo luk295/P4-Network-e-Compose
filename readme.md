@@ -44,3 +44,5 @@ Móstrame o arquivo no que aparece o **name** da rede, a **id**, **cando** foi c
 
 ![Propiedades da rede](https://github.com/luk295/P4-Network-e-Compose/blob/main/Rede_info.png)
 
+# 7-Crea outra rede
+Creo outra rede coas mesmas caracteristicas ou outra completamente distinta ?
