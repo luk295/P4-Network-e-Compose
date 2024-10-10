@@ -19,10 +19,10 @@ Para comprobalo fago `docker network inspect A_miña_Rede`.
 # 4-Comprobar que os contenedores poden verse entre eles.
 Para comprobar que poden verse entre eles podemos probar con `ping`.
 
-Hacemos `ping`a la dirección de la otra máquina del otro contenedor. ( Para saber lal propia dirección hacemos `ip a`.)
+Hacemos `ping`á dirección da outra máquina do outro contenedor. ( Para saber a propia dirección facemos `ip a`.)
 
 >[!TIP]
->Se non temos os comandos básicos bash podemos instarlos con los comandos que vienen a continuación.
+>Se non temos os comandos básicos bash podemos instalalos cos comandos que veñen a continuación.
 
 ```
 apt update $$ apt install ping
