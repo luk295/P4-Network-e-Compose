@@ -60,3 +60,4 @@ Contenedor6: `docker run -it --name Contenedor6 --network SEGUNDA_REDE ubuntu ba
 Probo a facer ping entre eles. E solo poden verse os contenedores que están na mesma rede.
 
 Isto fai posible crear contenedores nunha red que vense entre sí, aillados doutros contenedores creados noutra rede.
+## Docker Compose
