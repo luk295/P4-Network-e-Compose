@@ -25,8 +25,8 @@ Hacemos `ping`á dirección da outra máquina do outro contenedor. ( Para saber 
 >Se non temos os comandos básicos bash podemos instalalos cos comandos que veñen a continuación.
 
 ```
-apt update $$ apt install iputils-ping
-apt update $$ apt install iproute2
+apt update && apt install iputils-ping
+apt update && apt install iproute2
 ```
 **Fan ping entre elas**
 
@@ -52,3 +52,11 @@ docker network create --subnet 172.29.0.0/16 --ip-range 172.29.5.0/24 --gateway 
 
 ```
 # 8- Lanza dous contenedores novos conectados a esa rede.
+Contenedor5: `docker run -it --name Contenedor5 --network SEGUNDA_REDE ubuntu bash`
+
+Contenedor6: `docker run -it --name Contenedor6 --network SEGUNDA_REDE ubuntu bash`
+
+# 9- Comproba as posibles conexións entre os 4 contenedores
+Probo a facer ping entre eles. E solo poden verse os contenedores que están na mesma rede.
+
+Isto fai posible crear contenedores nunha red que vense entre sí, aillados doutros contenedores creados noutra rede.
