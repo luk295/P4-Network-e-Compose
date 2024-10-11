@@ -45,4 +45,9 @@ Móstrame o arquivo no que aparece o **name** da rede, a **id**, **cando** foi c
 ![Propiedades da rede](https://github.com/luk295/P4-Network-e-Compose/blob/main/Rede_info.png)
 
 # 7-Crea outra rede
-Creo outra rede coas mesmas caracteristicas ou outra completamente distinta ?
+Creo outra rede coas mesmas caracteristicas ou outra completamente distinta. Para isto utilizo o comando `docker network create` + `as características da rede` + `o nome da nova rede`.
+
+```
+docker network create --subnet 172.29.0.0/16 --ip-range 172.29.5.0/24 --gateway 172.29.5.1 SEGUNDA_REDE
+docker create network 
+```
