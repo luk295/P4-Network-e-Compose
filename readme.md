@@ -49,5 +49,6 @@ Creo outra rede coas mesmas caracteristicas ou outra completamente distinta. Par
 
 ```
 docker network create --subnet 172.29.0.0/16 --ip-range 172.29.5.0/24 --gateway 172.29.5.1 SEGUNDA_REDE
-docker create network 
+
 ```
+# 8- Lanza dous contenedores novos conectados a esa rede.
