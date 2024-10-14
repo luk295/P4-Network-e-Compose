@@ -61,3 +61,26 @@ Probo a facer ping entre eles. E solo poden verse os contenedores que están na 
 
 Isto fai posible crear contenedores nunha red que vense entre sí, aillados doutros contenedores creados noutra rede.
 ## Docker Compose
+
+# 10- Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun docker-compose up, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado
+Creei un arquivo .yaml moi simple para lanzar 3 contenedores con `docker-compose up`. (Pero sin rede):
+```
+version: '3.8'
+
+services:
+ ubuntu1:
+  image: ubuntu
+  container_name: ubuntu_N1
+  tty: true
+
+ ubuntu2:
+  image: ubuntu
+  container_name: ubuntu_N2
+  tty: true
+
+ ubuntu3:
+  image: ubuntu
+  container_name: ubuntu_N3
+  tty: true
+```
+
