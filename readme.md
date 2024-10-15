@@ -121,3 +121,6 @@ No include introduzco os arquivos .yaml, que son as máquinas. En `networks` cre
 Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde creei o arquivo docker-compose). E executo: **docker compose up**
 
 ![IMAXE DO COMPOSE](https://github.com/luk295/P4-Network-e-Compose/blob/main/docker-compose.png)
+
+# 11- Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN)
+
