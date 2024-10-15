@@ -124,3 +124,5 @@ Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde cre
 
 # 11- Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN)
 
+Podo facer `docker compose start [ servicio ]`para iniciar so ese servicio.
+Ou `docker compose stop [ servicio ]` para paralo.
