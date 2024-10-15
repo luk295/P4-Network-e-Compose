@@ -84,3 +84,41 @@ services:
   tty: true
 ```
 
+>[!NOTE]
+>ACTUALIZACIÓN DO EXERCICIO 10
+
+Creei varios arquivos para lanzar os contenedores seguindo as estruccións do enunciado. Primeiro fixen 3 arquivos .yaml no que cada un creará un contenedor. Exemplo do primer contenedor:
+```
+services:
+  ubuntu1:
+    image: ubuntu
+    container_name: ubuntu_N1
+    tty: true
+    networks:
+      - MIRED
+
+```
+en `services` digo que me cree o ubuntu1, que será unha `image` (imaxe) ubuntu, co `container_name nome` (nome) ubuntu_N1, que terá terminal activa asociada `tty:true`e por último, en `networks`, que estará conectada nunha rede chamada `MIRED` (Esta rede a crearei no arquivo principal para todos os contenedores, que é o `docker-compose.yml`).
+
+Esta arquivo chámase ubuntu1.yaml, e farei dous contenedores máis coas mesmas características, cambiando o número do nome da máquina. 
+
+Agora con ubuntu1.yaml, ubuntu2.yaml, ubuntu3.yaml creados, creo o arquivo principal que é o `docker-compose.yml`:
+
+```
+include:
+  - ubuntu1.yaml
+  - ubuntu2.yaml
+  - ubuntu3.yaml
+
+networks:
+  MIRED:
+    driver: bridge
+
+```
+No include introduzco os arquivos .yaml, que son as máquinas. En `networks` creo a rede MIRED que estará en `bridge`.
+
+# Agora solo queda executar o arquivo docker-compose.yml e se crearase os 3 contenedores conectados nesa mesma rede:
+Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde creei o arquivo docker-compose). E executo:
+
+# docker compose up
+
