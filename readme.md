@@ -117,9 +117,5 @@ networks:
 ```
 No include introduzco os arquivos .yaml, que son as máquinas. En `networks` creo a rede MIRED que estará en `bridge`.
 
-### Agora solo queda executar o arquivo docker-compose.yml e se crearase os 3 contenedores conectados nesa mesma rede:
-Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde creei o arquivo docker-compose). E executo:
-
-**docker compose up**
-
-
+### Agora solo queda executar o arquivo docker-compose.yml e crearase os 3 contenedores conectados nesa mesma rede:
+Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde creei o arquivo docker-compose). E executo: **docker compose up**
