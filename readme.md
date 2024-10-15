@@ -119,3 +119,5 @@ No include introduzco os arquivos .yaml, que son as máquinas. En `networks` cre
 
 ### Agora solo queda executar o arquivo docker-compose.yml e crearase os 3 contenedores conectados nesa mesma rede:
 Para executar o arquivo entro na carpeta onde teño a proxecto compose (onde creei o arquivo docker-compose). E executo: **docker compose up**
+
+[IMAXE DO COMPOSE](docker-compose.png)
